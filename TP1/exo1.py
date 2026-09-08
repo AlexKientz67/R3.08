@@ -136,7 +136,7 @@ class Cercle:
             return 0
 
 class Rectangle:
-
+    print("faire prochain tp")
 
 def main():
     point1 = Point(0, 0)
