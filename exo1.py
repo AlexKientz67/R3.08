@@ -10,6 +10,7 @@ def f1 (a : int, b : int) -> int:
 def f2 (valeur : int, seuil : int) -> int:
     """
     Fonction qui retourne 1 si la valeur depasse le seuil
+
     """
     if valeur > seuil:
         return 1
