@@ -2,6 +2,12 @@ import math
 
 
 class Point:
+    """
+    Classe pour la création d'un point
+
+    :param x: Coordonnée x
+    :param y: Coordonnée y
+    """
     def __init__(self, x: float = 0.0, y: float = 0.0):
         if not isinstance(x, (int, float)):
             raise TypeError("La coordonnée x doit être un nombre")
@@ -43,6 +49,12 @@ class Point:
 
 
 class Cercle:
+    """
+    Classe pour la création d'un cercle
+
+    :param centre: Point qui définit le centre
+    :param rayon: float qui définit le rayon du cercle
+    """
     def __init__(self, centre: Point, rayon: float):
 
         if not isinstance(centre, Point):
@@ -96,6 +108,13 @@ class Cercle:
 
 
 class Rectangle:
+    """
+    Classe pour la création d'un rectangle
+
+    :param point: Point de départ du cercle
+    :param longuer: Longueur du rectangle
+    :param largeur: Largeur du rectangle
+    """
     def __init__(
         self,
         point_bas_gauche: Point = None,
@@ -131,27 +150,15 @@ class Rectangle:
                     "Le point haut droit doit être un Point"
                 )
 
-            largeur = (
-                point_haut_droit.get_x
-                - point_bas_gauche.get_x
-            )
+            largeur = (point_haut_droit.get_x - point_bas_gauche.get_x)
 
-            hauteur = (
-                point_haut_droit.get_y
-                - point_bas_gauche.get_y
-            )
+            hauteur = (point_haut_droit.get_y- point_bas_gauche.get_y)
 
             if largeur <= 0:
-                raise ValueError(
-                    "Le point haut droit doit être à droite "
-                    "du point bas gauche"
-                )
+                raise ValueError("Le point haut droit doit être à droite du point bas gauche")
 
             if hauteur <= 0:
-                raise ValueError(
-                    "Le point haut droit doit être au-dessus "
-                    "du point bas gauche"
-                )
+                raise ValueError("Le point haut droit doit être au-dessus du point bas gauche")
 
         self.__point_bas_gauche = point_bas_gauche
         self.__hauteur = hauteur
@@ -167,22 +174,13 @@ class Rectangle:
         return self.__point_bas_gauche
 
     def position_bas_droit(self) -> Point:
-        return Point(
-            self.__point_bas_gauche.get_x + self.__largeur,
-            self.__point_bas_gauche.get_y
-        )
+        return Point(self.__point_bas_gauche.get_x + self.__largeur, self.__point_bas_gauche.get_y)
 
     def position_haut_gauche(self) -> Point:
-        return Point(
-            self.__point_bas_gauche.get_x,
-            self.__point_bas_gauche.get_y + self.__hauteur
-        )
+        return Point(self.__point_bas_gauche.get_x, self.__point_bas_gauche.get_y + self.__hauteur)
 
     def position_haut_droit(self) -> Point:
-        return Point(
-            self.__point_bas_gauche.get_x + self.__largeur,
-            self.__point_bas_gauche.get_y + self.__hauteur
-        )
+        return Point(self.__point_bas_gauche.get_x + self.__largeur, self.__point_bas_gauche.get_y + self.__hauteur)
 
     def check_point_in_rectangle(self, point: Point) -> int:
 
@@ -202,3 +200,39 @@ class Rectangle:
             return 1
 
         return 0
+
+"""
+def main():
+    print("point")
+    point = Point(0, 0)
+    p1 = Point(0, 0)
+    p2 = Point(1, 1)
+
+    print(p1.distanceCord(2, 2))
+    print(p1.distancePoint(p2))
+
+    print("cercle")
+    c1 = Cercle(p1, 5)
+    c2 = Cercle(p2, 5)
+
+    print(c1.perimetre())
+    print(c1.check_point_in_cercle(p2))
+    print(c1.calc_diametre())
+    print(c1.check_intersection(c2))
+
+    print("rectangle")
+
+    r1 = Rectangle(p1, 5, 10)
+    print(r1.calcul_surface())
+    print(r1.calcul_perimetre())
+    print(r1.position_bas_gauche())
+    print(r1.position_bas_droit())
+    print(r1.position_haut_gauche())
+    print(r1.position_haut_droit())
+    print(r1.check_point_in_rectangle(p2))
+
+
+
+if __name__ == "__main__":
+    main()
+"""
