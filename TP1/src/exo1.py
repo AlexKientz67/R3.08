@@ -219,6 +219,11 @@ def main():
     print(c1.check_point_in_cercle(p2))
     print(c1.calc_diametre())
     print(c1.check_intersection(c2))
+    
+    try:
+        c1 = Cercle(p1, -5)
+    except (TypeError, ValueError) as e:
+        print(f"Erreur : {e}")
 
     print("rectangle")
 
