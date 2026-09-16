@@ -80,7 +80,18 @@ class Mage(Personnage):
             return self.niveau + 3
         else:
             return self.niveau
+class joueur:
+    def __init__(self, nom: str, maximum: int):
+        self.__nom = nom
+        self.__maximum = maximum
+        self.__personnages = []
 
+    def ajouter(self, personnage: Personnage) -> None:
+        if len(self.__personnages) < self.__maximum:
+            self.__personnages.append(personnage)
+
+    def get_personnage_numero(self, numero):
+        return self.__personnages[numero]
 
 def main():
     m1 = Mage("Mage1", mana=1)
@@ -88,6 +99,12 @@ def main():
     p1 = Personnage("Personnage 1")
 
     m1.combat(g1)
+
+    j1 = joueur("Joueur 1", 5)
+    j1.ajouter(m1)
+    j1.ajouter(g1)
+
+    print(j1.get_personnage_numero(1))
 
 if __name__ == "__main__":
     main()
