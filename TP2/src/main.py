@@ -238,15 +238,13 @@ class Joueur:
         self.__personnages.remove(personnage)
 
 def main():
-    m1 = Mage("Mage1", mana=1)
-    g1 = Guerrier("Guerrier1")
-    p1 = Personnage("Personnage 1")
-
-    j1 = Joueur("louis", 5)
-    j1.ajouter(g1)
-    j1.ajouter(m1)
-
-    j1.rm_personnage_personnage(m1)
+    try:
+        m1 = Mage("mage1")
+        m2 = Mage(5)
+    except TypeError as error:
+        print("inchalla")
+    else:
+        print("c ok ")
 
 if __name__ == "__main__":
     main()

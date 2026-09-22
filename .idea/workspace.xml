@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e6a6cb-4d57-46e1-8d11-a63ac9b24863" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/preparation_fiche_exam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +29,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.032352028870043" />
-      <entry key="MS500" value="1.5035499705873865" />
-      <entry key="S2" value="1.9742861981363613" />
-      <entry key="S5" value="3.544334819036425" />
-      <entry key="S10" value="7.756710740865352" />
-      <entry key="S30" value="24.664140576031425" />
-      <entry key="S60" value="44.487976428797154" />
-      <entry key="M2" value="74.9520904078763" />
-      <entry key="M5" value="131.29924782449336" />
-      <entry key="M10" value="176.4213665679533" />
-      <entry key="M15" value="202.79215889597108" />
-      <entry key="M30" value="263.84931292276156" />
-      <entry key="H1" value="404.3625098634697" />
-      <entry key="H2" value="682.3051349076014" />
-      <entry key="H4" value="1080.3341272899477" />
-      <entry key="D1" value="1902.5528829236632" />
-      <entry key="W1" value="2141.037483018226" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000016709" />
+      <entry key="S2" value="1.0020057075862268" />
+      <entry key="S5" value="1.177485106136495" />
+      <entry key="S10" value="2.26417606622646" />
+      <entry key="S30" value="11.897814485912779" />
+      <entry key="S60" value="29.62044906529378" />
+      <entry key="M2" value="55.93516440401392" />
+      <entry key="M5" value="94.14362753343765" />
+      <entry key="M10" value="141.96487280937816" />
+      <entry key="M15" value="195.18565292900328" />
+      <entry key="M30" value="353.767333061315" />
+      <entry key="H1" value="604.1531321070671" />
+      <entry key="H2" value="974.2754608689236" />
+      <entry key="H4" value="1464.8607420454532" />
+      <entry key="D1" value="2497.942073859974" />
+      <entry key="W1" value="2807.4582371290635" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.614678932764708E-19" />
-      <entry key="MS500" value="1.9240250662803647E-4" />
-      <entry key="S2" value="0.15562711319517375" />
-      <entry key="S5" value="0.8471119615956081" />
-      <entry key="S10" value="1.8213893083899506" />
-      <entry key="S30" value="4.709863187940897" />
-      <entry key="S60" value="8.092932662458631" />
-      <entry key="M2" value="13.95613434440533" />
-      <entry key="M5" value="24.096819366522393" />
-      <entry key="M10" value="30.841673414199324" />
-      <entry key="M15" value="34.14170973763268" />
-      <entry key="M30" value="42.04777893045727" />
-      <entry key="H1" value="62.99975286597312" />
-      <entry key="H2" value="102.11355475370624" />
-      <entry key="H4" value="152.03293788139382" />
-      <entry key="D1" value="244.7679357515105" />
-      <entry key="W1" value="270.3310317849832" />
+      <entry key="MS100" value="6.604716625742554E-7" />
+      <entry key="MS500" value="0.05807254214086021" />
+      <entry key="S2" value="0.4915517684660235" />
+      <entry key="S5" value="0.812454365882054" />
+      <entry key="S10" value="1.2150692974575472" />
+      <entry key="S30" value="2.4936688478063305" />
+      <entry key="S60" value="3.4006847682362085" />
+      <entry key="M2" value="4.086035331517807" />
+      <entry key="M5" value="4.826252160767161" />
+      <entry key="M10" value="6.777623300109395" />
+      <entry key="M15" value="10.673635532977" />
+      <entry key="M30" value="27.036307480307737" />
+      <entry key="H1" value="58.77116301993225" />
+      <entry key="H2" value="109.03837744069845" />
+      <entry key="H4" value="172.41350473451854" />
+      <entry key="D1" value="294.0623025783707" />
+      <entry key="W1" value="328.63766878552514" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9834577700593548" />
-      <entry key="MS500" value="1.4890984855333038" />
-      <entry key="S2" value="2.0873389779218776" />
-      <entry key="S5" value="4.260869076586916" />
-      <entry key="S10" value="9.388386407558963" />
-      <entry key="S30" value="29.157514128360486" />
-      <entry key="S60" value="52.379162460511516" />
-      <entry key="M2" value="88.72833862519249" />
-      <entry key="M5" value="155.26511927036623" />
-      <entry key="M10" value="207.17559394946326" />
-      <entry key="M15" value="236.86779836061442" />
-      <entry key="M30" value="305.8546913333692" />
-      <entry key="H1" value="467.32866293932227" />
-      <entry key="H2" value="784.3891435766104" />
-      <entry key="H4" value="1232.3433329532531" />
-      <entry key="D1" value="2147.3139068365645" />
-      <entry key="W1" value="2411.3674081492177" />
+      <entry key="MS100" value="0.9526380169051805" />
+      <entry key="MS500" value="1.018860543451708" />
+      <entry key="S2" value="1.4109887988302077" />
+      <entry key="S5" value="1.927265539716491" />
+      <entry key="S10" value="3.4074732628432205" />
+      <entry key="S30" value="14.306495534072953" />
+      <entry key="S60" value="32.95589861561961" />
+      <entry key="M2" value="59.9796914255178" />
+      <entry key="M5" value="98.94775975120058" />
+      <entry key="M10" value="148.72181095797944" />
+      <entry key="M15" value="205.83436336985727" />
+      <entry key="M30" value="380.7703112927959" />
+      <entry key="H1" value="662.888544432606" />
+      <entry key="H2" value="1083.2803491644333" />
+      <entry key="H4" value="1637.2467998962577" />
+      <entry key="D1" value="2791.996102538158" />
+      <entry key="W1" value="3136.094568531788" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -125,6 +124,7 @@
       <recent name="$PROJECT_DIR$/TP1/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TP2/src" />
       <recent name="$PROJECT_DIR$/TP2" />
       <recent name="$PROJECT_DIR$/TP1/src" />
       <recent name="$PROJECT_DIR$/autres" />
@@ -132,6 +132,54 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="R308" />
       <option name="ENV_FILES" value="" />
@@ -148,13 +196,179 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP2/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP2/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.App">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.Task">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="R308" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
   </component>
@@ -186,6 +400,9 @@
       <workItem from="1789675977326" duration="24000" />
       <workItem from="1790016332935" duration="312000" />
       <workItem from="1790016657344" duration="2893000" />
+      <workItem from="1790065111751" duration="5283000" />
+      <workItem from="1790104934584" duration="1046000" />
+      <workItem from="1790107339977" duration="63000" />
     </task>
     <servers />
   </component>
