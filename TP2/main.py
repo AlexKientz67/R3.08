@@ -12,6 +12,9 @@ class Personnage():
     def get_pseudo(self) -> str:
         return self.__pseudo
 
+
+
+
     @property
     def niveau(self) -> int:
         return self.__niveau
