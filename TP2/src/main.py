@@ -1,4 +1,12 @@
 class Personnage():
+    """
+    Classe personnage qui permet de créer un personnage
+
+    :param pseudo: personnage pseudo
+    :param niveau: personnage niveau
+    :param nbr_point_de_vie: personnage nbr_point_de_vie
+    :param initiative: personnage initiative
+    """
     def __init__(self, pseudo : str, niveau : int = 1, nbr_point_de_vie : int = 1, initiative : int = 1):
         if not isinstance(pseudo, str):
             raise TypeError("Le pseudo doit etre de type str")
@@ -51,12 +59,22 @@ class Personnage():
     @nbr_point_de_vie.setter
     def nbr_point_de_vie(self, point : int):
 
+        """
+        Définir les points de vies du personnage
+        :param point: point de vie
+        """
+
         if not isinstance(point, int):
             raise TypeError("Le point doit etre de type int")
 
         self.__nbr_point_de_vie = point
 
     def attaque(self, attaque: Personnage) -> None:
+
+        """
+        Permet d'attaquer un joueur
+        :param attaque: personnage
+        """
 
         if not isinstance(attaque, Personnage):
             raise TypeError("Le pseudo doit etre de type Personnage")
@@ -74,6 +92,11 @@ class Personnage():
             attaque.nbr_point_de_vie -= self.degat()
 
     def combat(self, attaque: Personnage) -> None:
+        """
+        Cette fonction permet de lancer un combat
+        :param attaque: personnage
+        """
+
 
         if not isinstance(attaque, Personnage):
             raise TypeError("Le attaquant doit etre de type Personnage")
@@ -84,6 +107,10 @@ class Personnage():
             print(f"{self.pseudo} : {self.nbr_point_de_vie} PV | {attaque.pseudo} : {attaque.nbr_point_de_vie} PV")
 
     def soigner(self, soigner : Personnage) -> None:
+        """
+        Cette fonction permet de lancer un soigner
+        :param soigner: personnage
+        """
         if not isinstance(soigner, Personnage):
             raise TypeError("Le soigner doit etre de type Personnage")
         soigner.nbr_point_de_vie = self.niveau
@@ -93,6 +120,11 @@ class Personnage():
         return self.niveau
 
 class Guerrier(Personnage):
+    """
+    Cette classe permet de créer un guerrier qui est hérité de Personnage
+    """
+
+
     def __init__(self, pseudo : str, niveau : int = 1, nbr_point_de_vie : int = 1, initiative : int = 1):
         super().__init__(pseudo, niveau, nbr_point_de_vie * 8 + 4, initiative * 4 + 6)
 
@@ -100,6 +132,10 @@ class Guerrier(Personnage):
         return self.niveau * 2
 
 class Mage(Personnage):
+    """
+    Cette classe permet de créer un mage qui est hérité de personnage
+    """
+
     def __init__(self, pseudo : str, niveau : int = 1, nbr_point_de_vie : int = 1, initiative : int = 1,  mana : int = 0):
         super().__init__(pseudo, niveau, nbr_point_de_vie * 5 + 10, initiative * 6 + 4)
         self.__mana = niveau * 5
